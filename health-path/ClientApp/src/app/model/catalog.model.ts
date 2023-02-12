@@ -5,6 +5,7 @@ interface NaturalProduct {
     readonly companyName: string;
     readonly active: boolean;
     readonly purposes: readonly string[];
+    readonly routes: readonly string[];
 }
 
 export { NaturalProduct };
